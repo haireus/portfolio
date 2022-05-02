@@ -19,7 +19,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 
   --transition: all 400ms ease;
 }
@@ -59,21 +59,27 @@ h1 {
   font-size: 2.5rem;
 }
 
-seciton {
+section {
   margin-top: 8rem;
+  /* height: 100vh; */
 }
 
-section > h2,
-seciton > h5 {
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 section > h2 {
+  text-align: center;
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
 
 .text-light {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a {
   color: var(--color-primary);
   transition: var(--transition);
 }
@@ -106,6 +112,7 @@ a:hover {
 .img {
   display: block;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -121,7 +128,7 @@ a:hover {
 }
 
 /* MEDIA QUERY (SMALL DEVICES) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }

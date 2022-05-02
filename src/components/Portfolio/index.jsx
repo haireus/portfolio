@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Portfolio() {
-  return <>header</>;
+  return <section id="portfolio">header</section>;
 }
