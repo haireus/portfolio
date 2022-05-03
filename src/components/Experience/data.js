@@ -15,7 +15,7 @@ export const FRONT_END = [
     level: "Experienced",
   },
   {
-    id: 3,
+    id: 10,
     skill: "ReactJs",
     level: "Experienced",
   },
