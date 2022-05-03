@@ -1,41 +1,41 @@
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import Facebook from "../../assets/facebook.jpeg";
+import Spotify from "../../assets/spotify.webp";
+import Tiktok from "../../assets/tiktok.webp";
+import Instagrams from "../../assets/instagram.webp";
+import Youtube from "../../assets/youtube.jpeg";
 
 export const PROJECT = [
   {
     id: 1,
-    img: IMG1,
-    title: "This is the title ",
+    img: Facebook,
+    title: "Facebook clone",
     github: "https://github.com",
     demo: "https://github.com",
   },
   {
     id: 2,
-    img: IMG2,
-    title: "This is the title ",
+    img: Spotify,
+    title: "Spotify",
     github: "https://github.com",
     demo: "https://github.com",
   },
   {
     id: 3,
-    img: IMG3,
+    img: Tiktok,
     title: "This is the title ",
     github: "https://github.com",
     demo: "https://github.com",
   },
   {
     id: 4,
-    img: IMG4,
+    img: Instagrams,
     title: "This is the title ",
     github: "https://github.com",
     demo: "https://github.com",
   },
   {
     id: 5,
-    img: IMG5,
+    img: Youtube,
     title: "This is the title ",
     github: "https://github.com",
     demo: "https://github.com",
